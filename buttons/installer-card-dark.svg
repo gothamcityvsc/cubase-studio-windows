@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="92" viewBox="0 0 360 92" role="img" aria-label="Download for Windows: Click to install">
+  <rect x="2" y="2" width="356" height="88" rx="14" fill="none" stroke="#30363D" stroke-width="1.5"/>
+  <g transform="translate(26, 30)" stroke="#C9D1D9" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M14 0 L14 20"/>
+    <path d="M6 14 L14 22 L22 14"/>
+    <path d="M2 30 L26 30"/>
+  </g>
+  <text x="76" y="42" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="600" fill="#F0F6FC">Download for Windows</text>
+  <text x="76" y="64" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#8B949E">Click to install  &#8594;</text>
+</svg>
